@@ -4,7 +4,7 @@ def number_guessing_game():
     # ランダムに3桁の正解の数字を決定
     correct_number = random.randint(100, 999)
     
-    attempts = 10
+    attempts = 15
 
     print("3桁の数字を当ててください。")
     print(f"挑戦回数は{attempts}回までです。")
